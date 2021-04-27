@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
 #container{
     width: 80%;
     height: 920px;
@@ -13,7 +14,8 @@
     position: absolute;
     top: 35%;
     text-align: center;
-    left: 43%;
+    left: 41.5%;
+    font-family: 'Zen Dots', cursive;   
     
 }
 .imgBotao{
@@ -29,6 +31,7 @@
     top: 10px;
     height: 100%;
     width: 20%;
+    font-family: 'Zen Dots', cursive;  
 }
 .linha{
     background-color: black;
