@@ -3,6 +3,10 @@
 body{
 margin: 0px;
 padding: 0px;
+background-image: linear-gradient(45deg, rgb(110, 110, 110), black);
+width: 182vh;
+height: 100%;
+overflow-y: hidden; 
 }
 #container{
     width: 80%;
@@ -63,6 +67,13 @@ padding: 0px;
     font-size: 36px;
 }
 .celula{
-    font-size: 24px;
+    font-size: 22px;
 height: 20px;
+}
+.gitImg{
+    width: 80px;
+    height: 80px;
+    position: relative;
+    top: -50px;
+    left: 40px;
 }
