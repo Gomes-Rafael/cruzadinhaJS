@@ -3,7 +3,7 @@
 body{
 margin: 0px;
 padding: 0px;
-background-image: linear-gradient(45deg, rgb(110, 110, 110), black);
+background: linear-gradient(45deg, rgb(110, 110, 110), black);
 width: 182vh;
 height: 100%;
 overflow-y: hidden; 
@@ -42,7 +42,7 @@ overflow-y: hidden;
     top: 10px;
     height: 100%;
     width: 28%;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: bold;
     font-family: 'Oswald', sans-serif;
     text-align: left;
@@ -65,10 +65,13 @@ overflow-y: hidden;
 .celulaInclusa{
     background-color: beige;
     font-size: 36px;
+    width: 30px;
+    height: 30px;
 }
 .celula{
     font-size: 22px;
-height: 20px;
+        width: 30px;
+        height: 30px;
 }
 .gitImg{
     width: 80px;
@@ -77,3 +80,44 @@ height: 20px;
     top: -50px;
     left: 40px;
 }
+    .btnValid{
+    width: 30px;
+    height: 18px;
+    background-color: rgb(142, 236, 0);
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    }
+    #q1{
+        width: 100px;
+    } #q2{
+        width: 100px;
+    } #q3{
+        width: 100px;
+    } #q4{
+        width: 100px;
+    } #q5{
+        width: 100px;
+    } #q6{
+        width: 100px;
+    } #q7{
+        width: 100px;
+    } #q8{
+        width: 100px;
+    } #q9{
+        width: 100px;
+    } #q10{
+        width: 100px;
+    } #q11{
+        width: 100px;
+    } #q12{
+        width: 100px;
+    } #q13{
+        width: 100px;
+    } #q14{
+        width: 100px;
+    } #q15{
+        width: 100px;
+    } #q16{
+        width: 100px;
+    }

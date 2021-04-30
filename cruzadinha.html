@@ -11,23 +11,55 @@
     <div id="container">
         <div class="linha"></div>
         <div class="perguntas">
-            1. É a parte do computador onde é feita todo o processamento de dados enviados e recebidos. <br><br>
-            2. É um circuito digital que realiza operações logicas e aritméticas. <br><br>
-            3. Posições de memória dentro do processador. <br><br>
-            4. É um tipo de memória volátil, usado para armazenar dados randômicos. <br><br>
+            1. É a parte do computador onde é feita todo o processamento de dados enviados e recebidos. <br>
+            <input id="q1"> <button  onclick="verificar1()" id="btnValid 1" class="btnValid 1"></button> <br>
+
+            2. É um circuito digital que realiza operações logicas e aritméticas. <br>
+            <input id="q2"> <button onclick="verificar2()" class="btnValid 2" id="btnValid 2"></button> <br>
+
+            3. Posições de memória dentro do processador. <br>
+            <input id="q3"> <button onclick="verificar3()" id="btnValid 3"class="btnValid 3"></button> <br>
+
+            4. É um tipo de memória volátil, usado para armazenar dados randômicos. <br>
+            <input id="q4"> <button onclick="verificar4()" id="btnValid 4"class="btnValid 4"></button> <br>
+
             5. É um tipo de memória que permite apenas a leitura, as suas informações são gravadas pelo
-            fabricante uma única vez e após isso não podem ser alteradas ou apagadas, somente acessadas. <br><br>
-       6. É um tipo de chip de memória de computador que mantém seus dados quando a energia é desligada. <br><br>
-       7. Um chip de memória de computador que mantém informações armazenadas sem a necessidade de uma fonte de energia. <br><br>
-       8. Tem como função armazenar grandes quantidades de informações. <br><br>
-       9. Permite que certos dispositivos de hardware num computador acessem a memória do sistema para leitura e escrita. <br><br>
-       10. É usada para selecionar um dos circuitos integrados dentre vários conectados ao mesmo barramento de computador. <br><br>
-       11. Componente que especifica um endereço fisico na memoria. <br><br>
-        12. Transmite dados entre os componentes. <br><br>
-        13. Processador intel de 12 threads e 6 núcleos em que o turbo boost chega até  uma frequência máxima de 4.3 ghz. <br><br>
-        14. Processador intel de até 8 cores e 16 threads com uma frequência máxima de 5.1 ghz. <br><br>
-        15. Processador com dois núcleos reais de processamento. <br><br>
-        16. Processador com quatro nucleos reais de processamento. <br><br>
+            fabricante uma única vez e após isso não podem ser alteradas ou apagadas, somente acessadas. <br>
+            <input id="q5"> <button onclick="verificar5()" id="btnValid 5"class="btnValid 5"></button> <br>
+
+            6. É um tipo de chip de memória de computador que mantém seus dados quando a energia é desligada. <br>
+            <input id="q6"> <button onclick="verificar6()" id="btnValid 6"class="btnValid 6"></button> <br>
+
+            7. Um chip de memória de computador que mantém informações armazenadas sem a necessidade de uma fonte de energia. <br>
+            <input id="q7"> <button onclick="verificar7()" id="btnValid 7"class="btnValid 7"></button> <br>
+
+            8. Tem como função armazenar grandes quantidades de informações. <br>
+            <input id="q8"> <button onclick="verificar8()" id="btnValid 8"class="btnValid 8"></button> <br>
+
+            9. Permite que certos dispositivos de hardware num computador acessem a memória do sistema para leitura e escrita. <br>
+            <input id="q9"> <button onclick="verificar9()" id="btnValid 9" class="btnValid 9"></button> <br>
+
+            10. É usada para selecionar um dos circuitos integrados dentre vários conectados ao mesmo barramento de computador. <br>
+            <input id="q10"> <button onclick="verificar10()" id="btnValid10" class="btnValid 10"></button> <br>
+
+            11. Componente que especifica um endereço fisico na memoria. <br>
+            <input id="q11"> <button onclick="verificar11()" id="btnValid 11"class="btnValid 11"></button> <br>
+
+            12. Transmite dados entre os componentes. <br>
+            <input id="q12"> <button onclick="verificar12()" id="btnValid 12"class="btnValid 12"></button> <br>
+
+            13. Processador intel de 12 threads e 6 núcleos em que o turbo boost chega até  uma frequência máxima de 4.3 ghz. <br>
+            <input id="q13"> <button onclick="verificar13()" id="btnValid13"class="btnValid 13"></button> <br>
+
+            14. Processador intel de até 8 cores e 16 threads com uma frequência máxima de 5.1 ghz.  
+               <input id="q14"> <button onclick="verificar14()" id="btnValid 14" class="btnValid 14"></button> <br>
+
+            15. Processador com dois núcleos reais de processamento. <br>
+            <input id="q15"> <button onclick="verificar15()" id="btnValid 15" class="btnValid 15"></button> <br>
+
+            16. Processador com quatro nucleos reais de processamento. <br>
+            <input id="q16"> <button onclick="verificar16()" id="btnValid 16"class="btnValid 16"></button> <br>
+
         </div>
             <table id="tabela">
                 <tr>
@@ -64,7 +96,7 @@
                     <td id="l2c11" class="celula"></td>
                     <td id="l2c12" class="celula"></td>
                     <td id="l2c13" class="celula"></td>
-                    <td id="l2c14" class="celulaInclusa">f</td>
+                    <td id="l2c14" class="celulaInclusa"></td>
                     <td id="l2c15" class="celula"></td>
                     <td id="l2c16" class="celula"></td>
                     <td id="l2c17" class="celula"></td>
@@ -77,14 +109,14 @@
                     <td id="l3c4" class="celula"></td>
                     <td id="l3c5" class="celula"></td>
                     <td id="l3c6" class="celula">1</td>
-                    <td id="l3c7" class="celulaInclusa">c</td>
-                    <td id="l3c8" class="celulaInclusa">p</td>
-                    <td id="l3c9" class="celulaInclusa">u</td>
+                    <td id="l3c7" class="celulaInclusa"></td>
+                    <td id="l3c8" class="celulaInclusa"></td>
+                    <td id="l3c9" class="celulaInclusa"></td>
                     <td id="l3c10" class="celula"></td>
                     <td id="l3c11" class="celula"></td>
                     <td id="l3c12" class="celula"></td>
                     <td id="l3c13" class="celula"></td>
-                    <td id="l3c14" class="celulaInclusa">l</td>
+                    <td id="l3c14" class="celulaInclusa"></td>
                     <td id="l3c15" class="celula"></td>
                     <td id="l3c16" class="celula"></td>
                     <td id="l3c17" class="celula"></td>
@@ -95,16 +127,16 @@
                     <td id="l4c2" class="celula"></td>
                     <td id="l4c3" class="celula">6</td>
                     <td id="l4c4" class="celula"></td>
-                    <td id="l4c5" class="celula">5</td>
+                    <td id="l4c5" class="celula">13</td>
                     <td id="l4c6" class="celula"></td>
                     <td id="l4c7" class="celula"></td>
                     <td id="l4c8" class="celula"></td>
-                    <td id="l4c9" class="celulaInclusa">l</td>
+                    <td id="l4c9" class="celulaInclusa"></td>
                     <td id="l4c10" class="celula"></td>
                     <td id="l4c11" class="celula"></td>
                     <td id="l4c12" class="celula">4</td>
                     <td id="l4c13" class="celula"></td>
-                    <td id="l4c14" class="celulaInclusa">a</td>
+                    <td id="l4c14" class="celulaInclusa"></td>
                     <td id="l4c15" class="celula"></td>
                     <td id="l4c16" class="celula"></td>
                     <td id="l4c17" class="celula"></td>
@@ -112,19 +144,19 @@
                 </tr>
                 <tr>
                     <td id="l5c1" class="celula">3</td>
-                    <td id="l5c2" class="celulaInclusa">r</td>
-                    <td id="l5c3" class="celulaInclusa">e</td>
-                    <td id="l5c4" class="celulaInclusa">g</td>
-                    <td id="l5c5" class="celulaInclusa">i</td>
-                    <td id="l5c6" class="celulaInclusa">s</td>
-                    <td id="l5c7" class="celulaInclusa">t</td>
-                    <td id="l5c8" class="celulaInclusa">r</td>
-                    <td id="l5c9" class="celulaInclusa">a</td>
-                    <td id="l5c10" class="celulaInclusa">d</td>
-                    <td id="l5c11" class="celulaInclusa">o</td>
-                    <td id="l5c12" class="celulaInclusa">r</td>
-                    <td id="l5c13" class="celulaInclusa">e</td>
-                    <td id="l5c14" class="celulaInclusa">s</td>
+                    <td id="l5c2" class="celulaInclusa"></td>
+                    <td id="l5c3" class="celulaInclusa"></td>
+                    <td id="l5c4" class="celulaInclusa"></td>
+                    <td id="l5c5" class="celulaInclusa"></td>
+                    <td id="l5c6" class="celulaInclusa"></td>
+                    <td id="l5c7" class="celulaInclusa"></td>
+                    <td id="l5c8" class="celulaInclusa"></td>
+                    <td id="l5c9" class="celulaInclusa"></td>
+                    <td id="l5c10" class="celulaInclusa"></td>
+                    <td id="l5c11" class="celulaInclusa"></td>
+                    <td id="l5c12" class="celulaInclusa"></td>
+                    <td id="l5c13" class="celulaInclusa"></td>
+                    <td id="l5c14" class="celulaInclusa"></td>
                     <td id="l5c15" class="celula"></td>
                     <td id="l5c16" class="celula"></td>
                     <td id="l5c17" class="celula"></td>
@@ -133,18 +165,18 @@
                 <tr>
                     <td id="l6c1" class="celula"></td>
                     <td id="l6c2" class="celula"></td>
-                    <td id="l6c3" class="celulaInclusa">p</td>
+                    <td id="l6c3" class="celulaInclusa"></td>
                     <td id="l6c4" class="celula"></td>
-                    <td id="l6c5" class="celulaInclusa">5</td>
+                    <td id="l6c5" class="celulaInclusa"></td>
                     <td id="l6c6" class="celula"></td>
                     <td id="l6c7" class="celula"></td>
                     <td id="l6c8" class="celula"></td>
                     <td id="l6c9" class="celula"></td>
                     <td id="l6c10" class="celula"></td>
                     <td id="l6c11" class="celula"></td>
-                    <td id="l6c12" class="celulaInclusa">a</td>
+                    <td id="l6c12" class="celulaInclusa"></td>
                     <td id="l6c13" class="celula"></td>
-                    <td id="l6c14" class="celulaInclusa">h</td>
+                    <td id="l6c14" class="celulaInclusa"></td>
                     <td id="l6c15" class="celula"></td>
                     <td id="l6c16" class="celula"></td>
                     <td id="l6c17" class="celula"></td>
@@ -153,27 +185,27 @@
                 <tr>
                     <td id="l7c1" class="celula"></td>
                     <td id="l7c2" class="celula"></td>
-                    <td id="l7c3" class="celulaInclusa">r</td>
+                    <td id="l7c3" class="celulaInclusa"></td>
                     <td id="l7c4" class="celula"></td>
                     <td id="l7c5" class="celula"></td>
                     <td id="l7c6" class="celula"></td>
                     <td id="l7c7" class="celula"></td>
                     <td id="l7c8" class="celula"></td>
                     <td id="l7c9" class="celula">5</td>
-                    <td id="l7c10" class="celulaInclusa">r</td>
-                    <td id="l7c11" class="celulaInclusa">o</td>
-                    <td id="l7c12" class="celulaInclusa">m</td>
+                    <td id="l7c10" class="celulaInclusa"></td>
+                    <td id="l7c11" class="celulaInclusa"></td>
+                    <td id="l7c12" class="celulaInclusa"></td>
                     <td id="l7c13" class="celula"></td>
                     <td id="l7c14" class="celula"></td>
                     <td id="l7c15" class="celula"></td>
                     <td id="l7c16" class="celula"></td>
                     <td id="l7c17" class="celula"></td>
-                    <td id="l7c18" class="celulaInclusa">d</td>
+                    <td id="l7c18" class="celulaInclusa"></td>
                 </tr>
                 <tr>
                     <td id="l8c1" class="celula"></td>
                     <td id="l8c2" class="celula"></td>
-                    <td id="l8c3" class="celulaInclusa">o</td>
+                    <td id="l8c3" class="celulaInclusa"></td>
                     <td id="l8c4" class="celula"></td>
                     <td id="l8c5" class="celula"></td>
                     <td id="l8c6" class="celula"></td>
@@ -188,27 +220,27 @@
                     <td id="l8c15" class="celula"></td>
                     <td id="l8c16" class="celula"></td>
                     <td id="l8c17" class="celula"></td>
-                    <td id="l8c18" class="celulaInclusa">m</td>
+                    <td id="l8c18" class="celulaInclusa"></td>
                 </tr>
                 <tr>
                     <td id="l9c1" class="celula"></td>
                     <td id="l9c2" class="celula">8</td>
-                    <td id="l9c3" class="celulaInclusa">m</td>
-                    <td id="l9c4" class="celulaInclusa">e</td>
-                    <td id="l9c5" class="celulaInclusa">m</td>
-                    <td id="l9c6" class="celulaInclusa">o</td>
-                    <td id="l9c7" class="celulaInclusa">r</td>
-                    <td id="l9c8" class="celulaInclusa">i</td>
-                    <td id="l9c9" class="celulaInclusa">a</td>
+                    <td id="l9c3" class="celulaInclusa"></td>
+                    <td id="l9c4" class="celulaInclusa"></td>
+                    <td id="l9c5" class="celulaInclusa"></td>
+                    <td id="l9c6" class="celulaInclusa"></td>
+                    <td id="l9c7" class="celulaInclusa"></td>
+                    <td id="l9c8" class="celulaInclusa"></td>
+                    <td id="l9c9" class="celulaInclusa"></td>
                     <td id="l9c10" class="celulaInclusa"></td>
-                    <td id="l9c11" class="celulaInclusa">d</td>
-                    <td id="l9c12" class="celulaInclusa">e</td>
+                    <td id="l9c11" class="celulaInclusa"></td>
+                    <td id="l9c12" class="celulaInclusa"></td>
                     <td id="l9c13" class="celulaInclusa"></td>
-                    <td id="l9c14" class="celulaInclusa">m</td>
-                    <td id="l9c15" class="celulaInclusa">a</td>
-                    <td id="l9c16" class="celulaInclusa">s</td>
-                    <td id="l9c17" class="celulaInclusa">s</td>
-                    <td id="l9c18" class="celulaInclusa">a</td>
+                    <td id="l9c14" class="celulaInclusa"></td>
+                    <td id="l9c15" class="celulaInclusa"></td>
+                    <td id="l9c16" class="celulaInclusa"></td>
+                    <td id="l9c17" class="celulaInclusa"></td>
+                    <td id="l9c18" class="celulaInclusa"></td>
                 </tr>
                 <tr>
                     <td id="l10c1" class="celula"></td>
@@ -218,7 +250,7 @@
                     <td id="l10c5" class="celula"></td>
                     <td id="l10c6" class="celula"></td>
                     <td id="l10c7" class="celula"></td>
-                    <td id="l10c8" class="celulaInclusa">7</td>
+                    <td id="l10c8" class="celulaInclusa"></td>
                     <td id="l10c9" class="celula"></td>
                     <td id="l10c10" class="celula"></td>
                     <td id="l10c11" class="celula"></td>
@@ -254,16 +286,16 @@
                     <td id="l12c1" class="celula"></td>
                     <td id="l1c2" class="celula"></td>
                     <td id="l12c3" class="celula"></td>
-                    <td id="l12c4" class="celulaInclusa">d</td>
+                    <td id="l12c4" class="celulaInclusa"></td>
                     <td id="l12c5" class="celula"></td>
                     <td id="l12c6" class="celula"></td>
                     <td id="l12c7" class="celula"></td>
                     <td id="l12c8" class="celula"></td>
                     <td id="l12c9" class="celula"></td>
-                    <td id="l12c10" class="celulaInclusa">c</td>
+                    <td id="l12c10" class="celulaInclusa"></td>
                     <td id="l12c11" class="celula"></td>
                     <td id="l12c12" class="celula"></td>
-                    <td id="l12c13" class="celulaInclusa">d</td>
+                    <td id="l12c13" class="celulaInclusa"></td>
                     <td id="l12c14" class="celula"></td>
                     <td id="l12c15" class="celula"></td>
                     <td id="l12c16" class="celula"></td>
@@ -274,17 +306,17 @@
                     <td id="l13c1" class="celula"></td>
                     <td id="l13c2" class="celula"></td>
                     <td id="l13c3" class="celula">11</td>
-                    <td id="l13c4" class="celulaInclusa">a</td>
-                    <td id="l13c5" class="celulaInclusa">d</td>
-                    <td id="l13c6" class="celulaInclusa">d</td>
-                    <td id="l13c7" class="celulaInclusa">r</td>
-                    <td id="l13c8" class="celulaInclusa">e</td>
-                    <td id="l13c9" class="celulaInclusa">s</td>
-                    <td id="l13c10" class="celulaInclusa">s</td>
+                    <td id="l13c4" class="celulaInclusa"></td>
+                    <td id="l13c5" class="celulaInclusa"></td>
+                    <td id="l13c6" class="celulaInclusa"></td>
+                    <td id="l13c7" class="celulaInclusa"></td>
+                    <td id="l13c8" class="celulaInclusa"></td>
+                    <td id="l13c9" class="celulaInclusa"></td>
+                    <td id="l13c10" class="celulaInclusa"></td>
                     <td id="l13c11" class="celula"></td>
-                    <td id="l13c12" class="celulaInclusa">b</td>
-                    <td id="l13c13" class="celulaInclusa">u</td>
-                    <td id="l13c14" class="celulaInclusa">s</td>
+                    <td id="l13c12" class="celulaInclusa"></td>
+                    <td id="l13c13" class="celulaInclusa"></td>
+                    <td id="l13c14" class="celulaInclusa"></td>
                     <td id="l13c15" class="celula"></td>
                     <td id="l13c16" class="celula"></td>
                     <td id="l13c17" class="celula"></td>
@@ -294,7 +326,7 @@
                     <td id="l14c1" class="celula"></td>
                     <td id="l14c2" class="celula"></td>
                     <td id="l14c3" class="celula"></td>
-                    <td id="l14c4" class="celulaInclusa">t</td>
+                    <td id="l14c4" class="celulaInclusa"></td>
                     <td id="l14c5" class="celula"></td>
                     <td id="l14c6" class="celula"></td>
                     <td id="l14c7" class="celula"></td>
@@ -303,7 +335,7 @@
                     <td id="l14c10" class="celula"></td>
                     <td id="l14c11" class="celula"></td>
                     <td id="l14c12" class="celula"></td>
-                    <td id="l14c13" class="celulaInclusa">a</td>
+                    <td id="l14c13" class="celulaInclusa"></td>
                     <td id="l14c14" class="celula"></td>
                     <td id="l14c15" class="celula"></td>
                     <td id="l14c16" class="celula"></td>
@@ -314,7 +346,7 @@
                     <td id="l15c1" class="celula"></td>
                     <td id="l15c2" class="celula"></td>
                     <td id="l15c3" class="celula"></td>
-                    <td id="l15c4" class="celulaInclusa">a</td>
+                    <td id="l15c4" class="celulaInclusa"></td>
                     <td id="l15c5" class="celula"></td>
                     <td id="l15c6" class="celula"></td>
                     <td id="l15c7" class="celula"></td>
@@ -323,7 +355,7 @@
                     <td id="l15c10" class="celula"></td>
                     <td id="l15c11" class="celula"></td>
                     <td id="l15c12" class="celula"></td>
-                    <td id="l15c13" class="celulaInclusa">l</td>
+                    <td id="l15c13" class="celulaInclusa"></td>
                     <td id="l15c14" class="celula"></td>
                     <td id="l15c15" class="celula"></td>
                     <td id="l15c16" class="celula"></td>
@@ -339,22 +371,22 @@
                     <td id="l16c6" class="celula"></td>
                     <td id="l16c7" class="celula"></td>
                     <td id="l16c8" class="celula">16</td>
-                    <td id="l16c9" class="celulaInclusa">q</td>
-                    <td id="l16c10" class="celulaInclusa">u</td>
-                    <td id="l16c11" class="celulaInclusa">a</td>
-                    <td id="l16c12" class="celulaInclusa">d</td>
+                    <td id="l16c9" class="celulaInclusa"></td>
+                    <td id="l16c10" class="celulaInclusa"></td>
+                    <td id="l16c11" class="celulaInclusa"></td>
+                    <td id="l16c12" class="celulaInclusa"></td>
                     <td id="l16c13" class="celula"></td>
-                    <td id="l16c14" class="celulaInclusa">c</td>
-                    <td id="l16c15" class="celulaInclusa">o</td>
-                    <td id="l16c16" class="celulaInclusa">r</td>
-                    <td id="l16c17" class="celulaInclusa">e</td>
+                    <td id="l16c14" class="celulaInclusa"></td>
+                    <td id="l16c15" class="celulaInclusa"></td>
+                    <td id="l16c16" class="celulaInclusa"></td>
+                    <td id="l16c17" class="celulaInclusa"></td>
                     <td id="l16c18" class="celula"></td>
                 </tr>
                 <tr>
                     <td id="l17c1" class="celula"></td>
                     <td id="l17c2" class="celula"></td>
                     <td id="l17c3" class="celula"></td>
-                    <td id="l17c4" class="celulaInclusa">b</td>
+                    <td id="l17c4" class="celulaInclusa"></td>
                     <td id="l17c5" class="celula"></td>
                     <td id="l17c6" class="celula"></td>
                     <td id="l17c7" class="celula"></td>
@@ -363,7 +395,7 @@
                     <td id="l17c10" class="celula"></td>
                     <td id="l17c11" class="celula"></td>
                     <td id="l17c12" class="celula"></td>
-                    <td id="l17c13" class="celulaInclusa">c</td>
+                    <td id="l17c13" class="celulaInclusa"></td>
                     <td id="l17c14" class="celula"></td>
                     <td id="l17c15" class="celula"></td>
                     <td id="l17c16" class="celula"></td>
@@ -374,7 +406,7 @@
                     <td id="l18c1" class="celula"></td>
                     <td id="l18c2" class="celula"></td>
                     <td id="l18c3" class="celula"></td>
-                    <td id="l18c4" class="celulaInclusa">u</td>
+                    <td id="l18c4" class="celulaInclusa"></td>
                     <td id="l18c5" class="celula"></td>
                     <td id="l18c6" class="celula"></td>
                     <td id="l18c7" class="celula"></td>
@@ -383,7 +415,7 @@
                     <td id="l18c10" class="celula"></td>
                     <td id="l18c11" class="celula"></td>
                     <td id="l18c12" class="celula"></td>
-                    <td id="l18c13" class="celulaInclusa">o</td>
+                    <td id="l18c13" class="celulaInclusa"></td>
                     <td id="l18c14" class="celula"></td>
                     <td id="l18c15" class="celula"></td>
                     <td id="l18c16" class="celula"></td>
@@ -394,7 +426,7 @@
                     <td id="l19c1" class="celula"></td>
                     <td id="l19c2" class="celula"></td>
                     <td id="l19c3" class="celula"></td>
-                    <td id="l19c4" class="celulaInclusa">s</td>
+                    <td id="l19c4" class="celulaInclusa"></td>
                     <td id="l19c5" class="celula"></td>
                     <td id="l19c6" class="celula"></td>
                     <td id="l19c7" class="celula"></td>
@@ -403,7 +435,7 @@
                     <td id="l19c10" class="celula"></td>
                     <td id="l19c11" class="celula"></td>
                     <td id="l19c12" class="celula"></td>
-                    <td id="l19c13" class="celulaInclusa">r</td>
+                    <td id="l19c13" class="celulaInclusa"></td>
                     <td id="l19c14" class="celula"></td>
                     <td id="l19c15" class="celula"></td>
                     <td id="l19c16" class="celula"></td>
@@ -423,7 +455,7 @@
                     <td id="l20c10" class="celula"></td>
                     <td id="l20c11" class="celula"></td>
                     <td id="l20c12" class="celula"></td>
-                    <td id="l20c13" class="celulaInclusa">e</td>
+                    <td id="l20c13" class="celulaInclusa"></td>
                     <td id="l20c14" class="celula"></td>
                     <td id="l20c15" class="celula"></td>
                     <td id="l20c16" class="celula"></td>
@@ -436,5 +468,217 @@
 </body>
 </html>
 <script>
+    /* var inp1 = q1.value 
+    var inp2 = q2.value
+    var inp3 = q3.value
+    var inp4 = q4.value
+    var inp5 = q5.value
+    var inp6 = q6.value
+    var inp7 = q7.value
+    var inp8 = q8.value
+    var inp9 = q9.value
+    var inp10 = q10.value
+    var inp11 = q11.value
+    var inp12 = q12.value
+    var inp13 = q13.value
+    var inp14 = q14.value
+    var inp15 = q15.value
+    var inp16 = q16.value */
+function verificar1(){
+    if (q1.value.toUpperCase() == 'CPU'){
+        l3c7.innerHTML = "c"
+        l3c8.innerHTML = "p"
+        l3c9.innerHTML = "u"
+    }else{
+        alert("Resposta Incorreta!")
+    }
+}
+function verificar2(){
+    if (q2.value.toUpperCase() == 'ULA'){
+        l3c9.innerHTML = "u"
+        l4c9.innerHTML = "l"
+        l5c9.innerHTML = "a"
+    }else{
+        alert("Resposta Incorreta!")
+    }
+}
+function verificar3(){
+    if (q3.value.toUpperCase() == 'REGISTRADORES'){
+        l5c2.innerHTML = "r"
+        l5c3.innerHTML = "e"
+        l5c4.innerHTML = "g"
+        l5c5.innerHTML = "i"
+        l5c6.innerHTML = "s"
+        l5c7.innerHTML = "t"
+        l5c8.innerHTML = "r"
+        l5c9.innerHTML = "a"
+        l5c10.innerHTML = "d"
+        l5c11.innerHTML = "o"
+        l5c12.innerHTML = "r"
+        l5c13.innerHTML = "e"
+        l5c14.innerHTML = "s"
+    }else{
+        alert("Resposta Incorreta!")
+    }
+}
+function verificar4(){
+    if (q4.value.toUpperCase() == 'RAM'){
+        l5c12.innerHTML = "r"
+        l6c12.innerHTML = "a"
+        l7c12.innerHTML = "m"
+    }else{
+        alert("Resposta Incorreta!")
+    }
+}
+function verificar5(){
+    if (q5.value.toUpperCase() == 'ROM'){
+        l7c10.innerHTML = "r"
+        l7c11.innerHTML = "o"
+        l7c12.innerHTML = "m"
+    }else{
+        alert("Resposta Incorreta!")
+    }
+}
+function verificar6(){
+    if (q6.value.toUpperCase() == 'EPROM'){
+        l5c3.innerHTML = "e"
+        l6c3.innerHTML = "p"
+        l7c3.innerHTML = "r"
+        l8c3.innerHTML = "o"
+        l9c3.innerHTML = "m"
+    }else{
+        alert("Resposta Incorreta!")
+    }
+}
+function verificar7(){
+    if (q7.value.toUpperCase() == 'FLASH'){
+        l2c14.innerHTML = "f"
+        l3c14.innerHTML = "l"
+        l4c14.innerHTML = "a"
+        l5c14.innerHTML = "s"
+        l6c14.innerHTML = "h"
+    }else{
+        alert("Resposta Incorreta!")
+    }
+}
+function verificar8(){
+    if (q8.value.toUpperCase() == 'MEMORIA DE MASSA'){
+        l9c3.innerHTML = "m"
+        l9c4.innerHTML = "e"
+        l9c5.innerHTML = "m"
+        l9c6.innerHTML = "o"
+        l9c7.innerHTML = "r"
+        l9c8.innerHTML = "i"
+        l9c9.innerHTML = "a"
 
+        l9c11.innerHTML = "d"
+        l9c12.innerHTML = "e"
+
+        l9c14.innerHTML = "m"
+        l9c15.innerHTML = "a"
+        l9c16.innerHTML = "s"
+        l9c17.innerHTML = "s"
+        l9c18.innerHTML = "a"    
+    }else{
+        alert("Resposta Incorreta!")
+    }
+}
+function verificar9(){
+    if (q9.value.toUpperCase() == 'DMA'){
+        l7c18.innerHTML = "d"
+        l8c18.innerHTML = "m"
+        l9c18.innerHTML = "a"
+    }else{
+        alert("Resposta Incorreta!")
+    }
+}
+function verificar10(){
+    if (q10.value.toUpperCase() == 'CS'){
+        l12c10.innerHTML = "c"
+        l13c10.innerHTML = "s"
+    }else{
+        alert("Resposta Incorreta!")
+    }
+}
+function verificar11(){
+    if (q11.value.toUpperCase() == 'ADDRESS BUS'){
+        l13c4.innerHTML = "a"
+        l13c5.innerHTML = "d"
+        l13c6.innerHTML = "d"
+        l13c7.innerHTML = "r"
+        l13c8.innerHTML = "e"
+        l13c9.innerHTML = "s"
+        l13c10.innerHTML = "s"
+
+        l13c12.innerHTML = "b"
+        l13c13.innerHTML = "u"
+        l13c14.innerHTML = "s"
+
+    }else{
+        alert("Resposta Incorreta!")
+    }
+}
+function verificar12(){
+    if (q12.value.toUpperCase() == 'DATA BUS'){
+        l12c4.innerHTML = "d"
+        l13c4.innerHTML = "a"
+        l14c4.innerHTML = "t"
+        l15c4.innerHTML = "a"
+
+        l17c4.innerHTML = "b"
+        l18c4.innerHTML = "u"
+        l19c4.innerHTML = "s"
+
+    }else{
+        alert("Resposta Incorreta!")
+    }
+}
+function verificar13(){
+    if (q13.value.toUpperCase() == 'I5'){
+        l5c5.innerHTML = "i"
+        l6c5.innerHTML = "5"
+    }else{
+        alert("Resposta Incorreta!")
+    }
+}
+function verificar14(){
+    if (q14.value.toUpperCase() == 'I7'){
+        l9c8.innerHTML = "i"
+        l10c8.innerHTML = "7"
+    }else{
+        alert("Resposta Incorreta!")
+    }
+}
+function verificar15(){
+    if (q15.value.toUpperCase() == 'DUAL CORE'){
+        l12c13.innerHTML = "d"
+        l13c13.innerHTML = "u"
+        l14c13.innerHTML = "a"
+        l15c13.innerHTML = "l"
+
+        l17c13.innerHTML = "c"
+        l18c13.innerHTML = "o"
+        l19c13.innerHTML = "r"
+        l20c13.innerHTML = "e"
+
+
+    }else{
+        alert("Resposta Incorreta!")
+    }
+}
+function verificar16(){
+    if (q16.value.toUpperCase() == 'QUAD CORE'){
+        l16c9.innerHTML = "q"
+        l16c10.innerHTML = "u"
+        l16c11.innerHTML = "a"
+        l16c12.innerHTML = "d"
+
+        l16c14.innerHTML = "c"
+        l16c15.innerHTML = "o"
+        l16c16.innerHTML = "r"
+        l16c17.innerHTML = "e"
+    }else{
+        alert("Resposta Incorreta!")
+    }
+}
 </script>
